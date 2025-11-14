@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fdeef4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Title */
+.title {
+    text-align: center;
+    color: #b45ac9;
+    margin-top: 25px;
+    font-size: 28px;
+}
+
+/* Search Box Area */
+.search-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#searchBox {
+    width: 320px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid #d4a1ff;
+    font-size: 16px;
+    outline: none;
+}
+
+#searchBox:focus {
+    border-color: #b45ac9;
+}
+
+/* Event Container */
+.event-container {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Event Cards */
+.event-card {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 12px;
+    border-left: 6px solid #b45ac9;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+    font-size: 18px;
+    color: #444;
+    transition: 0.2s ease-in-out;
+}
+
+.event-card:hover {
+    transform: scale(1.02);
+    background: #fff2fb;
+}
